@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+</head>
+<h1>メンバー一覧</h1>
+<ol>
+ <!-- for文を使い変数の中のリストの値を順番に取ってくる -->
+    {% for member in members %}
+        <!-- リスト形式で値を表示 -->
+        <li>{{ member }}</li>
+    <!-- for文終了 -->
+    {% endfor %}
+</ol>
+<body>
+    
+</body>
+</html>
